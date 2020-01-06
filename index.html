@@ -23,7 +23,7 @@
       text-decoration: none;
     }
     
-    body{ width:2000px; margin:0 }
+    
 
     td,
     th,
@@ -319,6 +319,43 @@
             </td>
           </tr>
         </table>
+ <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">     
+           <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='portrait_image'><img src='images/TVT.jpg' width="160" height="120"> </div>
+                <img src='images/TVT.jpg' width="160" height="120">
+              </div>
+              <script type="text/javascript">
+                function portrait_start() {
+                  document.getElementById('portrait_image').style.opacity = "1";
+                }
+
+                function portrait_stop() {
+                  document.getElementById('portrait_image').style.opacity = "0";
+                }
+                portrait_stop()
+              </script>
+            </td>
+
+            <td valign="top" width="75%">
+              <a href="https://zhangleuestc.github.io/">
+                <papertitle>Using Reinforcement Learning to Minimize the Probability of Delay Occurrence in Transportation </papertitle>
+              </a>
+              <br>
+              Zhiguang Cao, Hongliang Guo, Wen Song, Kaizhou Gao, Zhenghua Chen,<strong>Le Zhang</strong>,  Xuexi Zhang
+
+              <br>
+              <em><strong>IEEE Transactions on Intelligent Transportation Systems（T-ITS）</strong>,</em>, 2020.
+              <br>
+              <a href="https://arxiv.org/abs/1912.11236">Arxiv</a>
+              /
+              <a href="https://zhangleuestc.github.io/">Project Page</a>
+              
+              <p></p>
+              <p>We design a novel and practical Q-learning approach where the converged Q-values have the practical meaning as the actual probabilities of arriving on time so as to improve the accuracy of ﬁnding the real optimal path.</p>
+              
+            </td>        
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
            <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
             <td width="25%">
